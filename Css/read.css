@@ -1,0 +1,138 @@
+.read-me{
+    width: 100%;
+    height: 0vh;
+}
+.read-container{
+    background: #d8d2d2;
+    width: 100%;
+    height: 100vh;
+}
+.read{
+    text-align: center;
+    padding-top: 120px;
+}
+.read h1{
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(241, 24, 24, 0.932);
+    font-family: verdana;
+}
+.mesukkah{
+    color: hsla(51, 92%, 42%, 0.884);
+}
+.bio{
+    margin-top: 15px;
+    color: #777;
+}
+.read-content{
+    background: #d8d2d2;
+    margin-bottom: 25px;
+    width: 65%;
+    margin: auto;
+}
+.page-content{
+    padding-bottom: 20px;
+    display: none;
+}
+.page-content.active-content{
+    display: block;
+}
+
+.history{
+    text-align: center;
+    margin: 20px 0;
+    color: #680000;
+    text-decoration: underline;
+    letter-spacing: .8px;
+}
+.start{
+    line-height: 26px;
+    color: #777;
+    letter-spacing: .8px;
+    font-family:  Helvetica;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* ------------------page-numbering--------------------- */
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.pagination ul.pages{
+    list-style-type: none;
+    background-color: #999;
+    border-radius: 25px;
+}
+.pagination .pages li.page-links{
+    display: inline-block;
+    padding: 10px 15px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.pagination .pages li.page-links:hover, .pagination .pages .active-link{
+    background-color: #333;
+    border-radius: 50%;
+    opacity: 80%;
+}
+
+.pagination .pages li.page-links:hover:first-child{
+    background-color: transparent;
+}
+.pagination .pages li.page-links:hover:last-child{
+    background-color: transparent;
+}
+.pagination .pages li.page-links a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+/* ------------------media-qerries----------------------- */
+@media screen and (max-width:600px) {
+    .read h1{
+        font-family: roboto;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgba(241, 24, 24, 0.932);
+        font-family: verdana;
+    }
+    .first-content{
+        width: 100%;
+        margin: auto;
+        padding: 25px;
+    }
+}
+@media screen and (max-width:900px) {
+    .read h1{
+        font-family: roboto;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgba(241, 24, 24, 0.932);
+        font-family: verdana;
+    }
+    .first-content{
+        width: 100%;
+        margin: auto;
+        padding: 25px;
+    }
+    
+}
+@media screen and (max-width:1100px) {
+    .read h1{
+        font-family: roboto;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgba(241, 24, 24, 0.932);
+        font-family: verdana;
+    }
+    .first-content{
+        width: 90%;
+        margin: auto;
+        padding: 25px;
+    }
+    
+}
